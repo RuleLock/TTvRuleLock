@@ -7,17 +7,17 @@ import com.locker.rulelock.base.BaseActivity
 class MainActivity : BaseActivity() {
 
 	override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+		super.onCreate(savedInstanceState)
+		setContentView(R.layout.activity_main)
 
-    }
+	}
 
-    external fun stringFromJNI(): String
+	external fun stringFromJNI(): String
 
-    companion object {
+	companion object {
 
-        init {
-            System.loadLibrary("native-lib")
-        }
-    }
+		init {
+			System.loadLibrary("native-lib")
+		}
+	}
 }
