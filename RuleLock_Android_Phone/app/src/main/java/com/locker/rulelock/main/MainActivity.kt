@@ -1,6 +1,7 @@
-package com.locker.rulelock
+package com.locker.rulelock.main
 
 import android.os.Bundle
+import com.locker.rulelock.R
 import com.locker.rulelock.base.BaseActivity
 
 class MainActivity : BaseActivity() {
