@@ -10,11 +10,11 @@ import android.util.Log
  * @date 17-11-5
  */
 abstract class BaseActivity : AppCompatActivity(), IBaseView {
-	private val TAG: String = "" + BaseActivity::class.java.name
+	private val tag: String = "" + BaseActivity::class.java.name
 
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
-		Log.i(TAG, "onCreate -----  " + this::class.java.name)
+		Log.i(tag, "onCreate -----  " + this::class.java.name)
 
 	}
 
