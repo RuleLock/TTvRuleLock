@@ -1,9 +1,7 @@
 package com.locker.rulelock.main
 
 import android.os.Bundle
-import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.RecyclerView
 import com.locker.rulelock.R
 import com.locker.rulelock.base.BaseActivity
 import com.locker.rulelock.main.adapter.GridSpacingItemDecoration
